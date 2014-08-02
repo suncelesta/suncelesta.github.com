@@ -7,11 +7,9 @@
   <version>1.0-SNAPSHOT</version>
   <properties>
     <git.dir>${project.basedir}/../../.git</git.dir>
-    <!-- github server corresponds to entry in ~/.m2/settings.xml -->
     <github.global.server>github</github.global.server>
   </properties>
   <dependencies>
-    <!-- library dependencies -->
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
@@ -37,11 +35,10 @@
       <scope>test</scope>
     </dependency>
     <dependency>
-          <groupId>com.twitter</groupId>
-          <artifactId>util-logging_2.9.2</artifactId>
-          <version>6.12.1</version>
+        <groupId>com.twitter</groupId>
+        <artifactId>util-logging_2.9.2</artifactId>
+        <version>6.12.1</version>
     </dependency>
-    <!-- project dependencies -->
     <dependency>
       <groupId>com.twitter</groupId>
       <artifactId>finagle-core_2.9.2</artifactId>
